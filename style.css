@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 672px;
+    height: 672px;
+    border: 2px solid black;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    /* margin: 10px; */
+}
