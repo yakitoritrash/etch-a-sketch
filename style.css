@@ -3,6 +3,17 @@ body{
     background-repeat: repeat;
     background-size: 66px 66px;
     background-blend-mode:darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "pixel";
+    src: url(assets/light_pixel-7.ttf);
 }
 
 .container{
@@ -27,6 +38,19 @@ body{
     background-color: #fff;
 }
 
-.h1{    
+h1{    
     text-align: center;
+    background-color: rgb(9, 18, 148);
+    color: rgb(247, 208, 100);
+    padding: 10px;
+    font-size: 75px;
+    font-family: "pixel";
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
