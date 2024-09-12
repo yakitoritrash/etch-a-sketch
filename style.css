@@ -6,23 +6,22 @@ body{
 }
 
 .container{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     width: 672px;
     height: 672px;
     border: 2px solid black;
-    position: absolute;
+    /* position: absolute;
     top:0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     
     margin: auto;
 }
 
 .square{
-    width: 40px;
-    height: 40px;
+    /* width: 40px;
+    height: 40px; */
     border: 1px solid #000000;
     /* margin: 10px; */
     background-color: #fff;
